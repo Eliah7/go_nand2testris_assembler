@@ -1,0 +1,43 @@
+--- UseCase Interactor
+1. Get Assembly Instructions
+    i. Get original Instructions
+    ii. Remove whitespace
+
+2. Construction of Symbol Table
+    i. Construct an empty symbol table
+    ii. Add the pre-defined symbols to the symbol table
+
+3. Interpret Symbols
+    i. Replace symbols with real value
+
+4. Convert Assembly Instructions to Binary Instructions
+
+5. Output Binary Instructions
+    i. Output to file
+
+--- Entites
+1. AssemblyInstruction
+2. AInstruction
+3. CInstruction
+4. BinaryInstruction
+5. Parser
+6. StringInstruction
+
+--- DataAccess
+1. DataAccessInterface
+2. FileAccess
+3. File
+
+---  Output
+1. InstructionsOutputBoundary
+2. InstructionsOutputData
+3. PresenterInterface
+4. FilePresenter
+5. ViewModel
+6. View(File System)
+
+-- Controller
+2. InstructionsInputBoundary
+3. InstructionsInputData
+4. CommandlineController
+
